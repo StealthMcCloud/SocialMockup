@@ -1,5 +1,6 @@
 body {
     background-color: rgb(211, 209, 209);
+    background-image: url("pony.jpg");
 
 }
 
@@ -118,11 +119,12 @@ padding-top: 40px;
     background-color: rgb(66, 66, 177);
     position: relative;
     float: left;
+    bottom: 4px;
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 0px;
     width: 100px ;
-    height: 40px;
+    height: 42px;
 }
 .box7 {
   background-color: white;  
