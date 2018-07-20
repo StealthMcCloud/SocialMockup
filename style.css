@@ -54,6 +54,15 @@ width: 850px;
 
 }
 
+ /* .img1 {
+    background-image: url("Stealth.jpg");
+    transform: inherit;
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    text-align: center;
+} */
+
 .box1 {
     background-color: rgb(66, 66, 177);
     position: relative;
