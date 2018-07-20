@@ -33,7 +33,9 @@ h2 {
     position: relative;
     left: 575px;
     top: 120px;
+    border-radius: 15px;
 }
+
 
 .centering {
 display: block;
@@ -95,7 +97,6 @@ padding-top: 40px;
 
 .box6 {
     background-color: white;
-    text-align: left;
     display: block;
     width: 328px;
     height: 200px;
@@ -107,7 +108,7 @@ padding-top: 40px;
 }
 .subbox6 {
     background-color: rgb(66, 66, 177);
-    position: absolute;
+    position: relative;
     float: left;
     margin-bottom: 10px;
     margin-top: 0px;
@@ -136,7 +137,7 @@ padding-top: 40px;
     display: block;
     float: left;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 6px;
     width: 80px ;
     height: 80px;
 }
@@ -144,7 +145,8 @@ padding-top: 40px;
 .subbox8-1 {
     background-color: rgb(66, 66, 177);
     position: relative;
-    top: 70px;
+    display: inline-block;
+    top: 4px;
     left: 6px;
     height: 200px;
     width: 500px;
