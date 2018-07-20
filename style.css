@@ -1,6 +1,7 @@
 body {
     background-color: rgb(211, 209, 209);
     background-image: url("pony.jpg");
+    background-repeat: cover;
 
 }
 
@@ -43,6 +44,17 @@ color: blue;
     left: 575px;
     top: 120px;
     border-radius: 2px;
+    box-shadow: 0 3px gray;
+}
+
+.button1:hover, .button2:hover, .button3:hover, .button4:hover {
+background-color: gray;
+}
+
+.button1:active, .button2:active, .button3:active, .button4:active {
+background-color: rgb(77, 77, 77);
+box-shadow: 0 1px purple;
+transform: translateY(1px)
 }
 
 
@@ -54,14 +66,12 @@ width: 850px;
 
 }
 
- /* .img1 {
+ .img1 {
     background-image: url("Stealth.jpg");
-    transform: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 120px;
-    width: 120px;
-    margin: auto;
-    text-align: center;
-} */
+}
 
 .box1 {
     background-color: rgb(66, 66, 177);
@@ -91,6 +101,7 @@ width: 850px;
     float: left;
     word-spacing: 5px;
 }
+
 .box4 {
 background-color: white;
 text-align: left;
@@ -124,6 +135,7 @@ padding-top: 40px;
     margin-top: 0px;
     padding-bottom: 20px;
 }
+
 .subbox6 {
     background-color: rgb(66, 66, 177);
     position: relative;
@@ -135,6 +147,7 @@ padding-top: 40px;
     width: 100px ;
     height: 42px;
 }
+
 .box7 {
   background-color: white;  
   text-align: left;
